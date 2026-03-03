@@ -1,5 +1,4 @@
-import eventlet
-eventlet.monkey_patch()
+
 from flask import Flask, request, render_template, send_file, jsonify
 from flask_socketio import SocketIO, emit
 from image_embed import embed_image
