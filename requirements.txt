@@ -1,4 +1,4 @@
-Flask==2.3.6
+Flask==2.3.3
 Flask-SocketIO==6.3.3
 torch==2.1.0
 torchvision==0.18.1
