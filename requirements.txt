@@ -1,0 +1,12 @@
+Flask==2.3.6
+Flask-SocketIO==6.3.3
+torch==2.1.0
+torchvision==0.18.1
+Pillow==10.0.1
+opencv-python==4.8.1.78
+numpy==1.27.5
+pymongo==5.7.1
+librosa==0.10.2
+soundfile==0.12.1
+eventlet==0.33.3
+python-socketio==5.10.4
