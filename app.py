@@ -205,8 +205,11 @@ def detect_stego_audio(audio_path):
 # =========================
 @app.route("/")
 def index():
+    template_path = "templates/homepage.html"
+    if not os.path.exists(template_path):
+        return f"❌ Template not found at {os.path.abspath(template_path)}"
     return render_template("homepage.html")
-
+    
 # ===== Image hide/reveal =====
 @app.route("/hide_image", methods=["POST"])
 def hide_image():
