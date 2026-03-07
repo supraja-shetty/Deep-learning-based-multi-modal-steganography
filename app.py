@@ -125,7 +125,7 @@ def load_models():
     video_model.eval()
     audio_model.eval()
 
-load_models()
+#load_models()
 
 # =========================
 # Common transforms
